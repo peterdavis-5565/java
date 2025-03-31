@@ -12,7 +12,7 @@ if (isset($_POST["submit"])) {
     $result = mysqli_query($conn, $sql);
     if ($result) {
         if (empty($_POST['name']) && empty($_POST['sex']) && empty($_POST['country']) && empty($_POST['email'])) {
-            echo "Data inserted successfully";
+            echo "Data not inserted!!!!!";
         } else {
             echo "Some Details are missing";
         }
